@@ -1,0 +1,97 @@
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #1f2937;
+}
+
+/* Header container */
+.header {
+  border-bottom: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.page_container{
+  width:1200px;
+  margin:0 auto;
+}
+.nav-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Brand styling */
+/* .logo img {
+    width: 180px;
+    height: auto;
+    display: block;
+} */
+
+/* Centered navigation links */
+.nav-links {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #6b7280;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.15s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #0f172a;
+}
+
+/* Auth / Secondary link */
+.login-btn {
+  text-decoration: none;
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid #e5e7eb;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.login-btn:hover {
+  background-color: #f3f4f6;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
+
+
+.website-banner img{
+  height:550px;
+  width:100%;
+}
+
+.heading-text {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.heading-text h1{
+  width:40%;
+}
