@@ -21,6 +21,13 @@ body {
 .page_container{
   width:1200px;
   margin:0 auto;
+  background: pink;
+}
+
+.page_wrapper{
+   width:1200px;
+  margin:0 auto;
+  background: pink;
 }
 .nav-container {
   max-width: 1280px;
@@ -81,7 +88,6 @@ body {
   }
 }
 
-
 .website-banner img{
   height:550px;
   width:100%;
@@ -92,6 +98,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+
 .heading-text h1{
-  width:40%;
+  text-align: center;
+  width:25%;
 }
